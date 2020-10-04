@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <link rel="stylesheet" type="text/css" href="icons/arrows_previos_next/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="icons/icon_arrow_down/css/fontello.css">
+<link rel="stylesheet" type="text/css" href="icons/socials_icons/css/fontello.css">
+ 
+    <link rel="stylesheet" type="text/css" href="styles/login_page.css" />
+    <link rel="stylesheet" type="text/x-scss" href="styles/login_page.scss" />
+    <link rel="stylesheet" type="application/json" href="styles/login_page.css.map" />
+    <link rel="stylesheet" type="image/jpeg" href="img_jpeg/login_img.jpg">
+    <link rel="stylesheet" type ="image/svg+xml" href="logo/" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__container">
+          <div class="logo header__logo">
+            <div class="logo__label">
+              <div class="logo__vector-left"></div>
+              <div class="logo__vector-right"></div>
+            </div>
+            <div class="logo__name"></div>
+          </div>
+          <div class="header__nav">
+            <div class="header__item header__about about">О нас</div>
+            <div class="header__item header__services  services"><span>Услуги</span>
+              <i class="icon-angle-down-slim header__icon"></i>
+            </div>
+            <div class="header__item header__vacancy vacancy">Вакансии</div>
+            <div class="header__item header__news news">Новости</div>
+            <div class="header__item header__conditions conditions">
+              <span>Соглашения</span>
+              <i class="icon-angle-down-slim header__icon"></i>
+            </div>
+
+            <a href="login_page.html">
+              <button class="header__btn btn_white">войти</button>
+            </a>
+            <a href="search_page.html">
+              <button class="header__btn btn_primary registeration__button">подобрать номер</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class='header_mobil'>
+            <div class="burger-menu">
+              <input class='burger-menu__input' id="menu__toggle" type="checkbox" />
+              <label class="burger-menu__btn" for="menu__toggle">
+                <span class="burger-menu__icon"></span>
+              </label>
+              <div class="burger-menu__list">
+                <a class="menu__item" href="#"><span class="burger-menu__text">О нас</span></a>
+                <a class="menu__item" href="#"><span class="burger-menu__text">Услуги</span></a>
+                <a class="menu__item" href="#"><span class="burger-menu__text">Вакансии</span>
+                </a>
+                <a class="menu__item" href="#"><span class="burger-menu__text">Новости</span></a> 
+                <a class="menu__item" href="#"><span class="burger-menu__text">Соглашения</span></a>
+                <a class="menu__item" href="search_page.html">
+                  <button class="header_mobil__btn btn_primary">подобрать номер</button>
+                </a>
+              </div>
+            </div>
+            <div class="logo header_mobil__logo">
+              <div class="logo__label">
+                <div class="logo__vector-left"></div>
+                <div class="logo__vector-right"></div>
+              </div>
+              <div class="logo__name"></div>
+            </div>
+            <a href="search_page.html">
+            <button class="header_mobil__btn btn_white">подобрать номер</button>
+        </a>
+      </div>
+
+      <main class="main main_login-page">
+        <div class=" main__login-form login-form ">
+          <form action="/" autocomplete="on" name="login" method="GET">
+            <p class="login-form__title">Войти</p>
+            <div class="text-field login-form__field">
+              <input
+                class="text-field__input email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                autocomplete="on"
+                required
+              />
+            </div>
+            <div class="text-field login-form__field">
+              <input
+                class="text-field__input email"
+                type="password"
+                name="password"
+                placeholder="Пароль"
+                autocomplete="on"
+                required
+              />
+            </div>
+            <button type="submit" class="btn-go-to-pay login-form__btn">
+              <span class="btn-go-to-pay__text">войти</span>
+              <i class="icon-arrow-next btn-go-to-pay__icon"></i>
+            </button>
+          </form>
+            <div class="login-form__wrapper">
+              <p class="login-form__alternative">Нет аккаунта на Toxin?</p>
+              <a href="registration_page.html">
+                <button class="btn btn_active btn_white login-form__login-btn">
+                  создать
+                </button>
+              </a>
+            </div>
+          </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container container ">
+          <div class="footer__grid ">
+            <div class='footer__grid-col'>
+              <div class="logo footer__logo">
+                <div class="logo__label">
+                  <div class="logo__vector-left"></div>
+                  <div class="logo__vector-right"></div>
+                </div>
+                <div class="logo__name"></div>
+              </div>
+              <div class="footer__description">
+                Бронирование номеров в лучшем отеле 2019 года по версии
+                ассоциации «Отельные взгляды»
+              </div>
+            </div>
+            <div class='footer__grid-col footer__grid-col_first'>
+              <ul class='footer__list'>
+                <li class='footer__item'><a class='footer__link' href="">навигация</a></li>
+              <li class='footer__item'><a class='footer__link' href="">О нас</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Новости</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Служба поддержки</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Услуги</a></li>
+              </ul>
+            </div>
+            <div class='footer__grid-col footer__grid-col_second'>
+              <ul class='footer__list'>
+              <li class='footer__item'><a class='footer__link' href="">о нас </a></li>
+              <li class='footer__item'><a class='footer__link' href=""> О сервисе</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Наша команда</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Вакансии</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Инвесторы</a></li>
+              </ul>
+            </div>
+            <div class='footer__grid-col footer__grid-col_third'>
+              <ul class='footer__list'>
+              <li class='footer__item'><a class='footer__link' href="">Служба поддержки</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Соглашения</a class='footer__link'></li>
+              <li class='footer__item'><a class='footer__link' href="">Сообщества</a></li>
+              <li class='footer__item'><a class='footer__link' href="">Связь с нами</a></li>
+            </ul>
+            </div>
+            <div class='footer__grid-col'>
+              <ul class='footer__list'>
+                <li class='footer__item'>Подписка</li>
+                </ul>
+              <div class='footer__description'>Получайте специальные предложения и новости сервиса</div>
+              <form action="/" autocomplete="on" name="subscribe" method="GET">
+                <div class="footer__subscription subscription">
+                  <input
+                    class="subscription__input email"
+                    type="email"
+                    name="email"
+                    placeholder="Your email address"
+                    autocomplete="on"
+                    required
+                  />
+                  <button type="submit" class="subscription__submit-btn">
+                    <i class='icon-arrow-next subscription__icon'></i>
+                  </button>
+                </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="copyright">
+        <div class="copyright__container container ">
+          <div class="copyright__text">
+            Copyright © 2018 Toxin отель. Все права зачищены.
+          </div>
+          <div class="copyright__socials socials">
+            <i class="icon-twitter icon"></i>
+            <i class="icon-facebook icon"></i>
+            <i class="icon-instagram icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class='footer_mobil'>
+        <div class="logo footer_mobil__logo">
+          <div class="logo__label">
+            <div class="logo__vector-left"></div>
+            <div class="logo__vector-right"></div>
+          </div>
+          <div class="logo__name"></div>
+        </div>
+        <div class='footer_mobil__text'>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</div>
+        <div class="footer_mobil__socials socials">
+          <i class="icon-twitter icon"></i>
+          <i class="icon-facebook icon"></i>
+          <i class="icon-instagram icon"></i>
+        </div>
+      </div>
+  </body>
+  <script defer type="text/javascript" src="scripts/burger-menu.js"></script>
+</html>
