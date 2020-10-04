@@ -1,0 +1,44 @@
+.logo {
+  width: 105px;
+  height: 40px;
+
+  .logo__label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url(/logo/logo_circle.svg);
+
+    .logo__vector-left {
+      background-image:
+        url(/logo/vector_left.svg);
+      width: 12px;
+      height: 12px;
+      position: relative;
+      left: 9px;
+      top: 15px;
+      background-repeat: no-repeat;
+    }
+
+    .logo__vector-right {
+      background-image: url(/logo/vector_right.svg);
+      width: 9px;
+      height: 6px;
+      position: relative;
+     left: 21px;
+    top: 3px;
+      background-repeat: no-repeat;
+
+    }
+  }
+
+  .logo__name {
+    display: inline-block;
+    background-image: url(/logo/logo_toxin.svg);
+    width: 54px;
+    height: 13px;
+    position: relative;
+  left: 11px;
+    bottom: 13px;
+  }
+}
