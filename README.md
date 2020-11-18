@@ -1,2 +1,1 @@
-
-permalink: /search_page.html
+FSD Hotel Frontend
